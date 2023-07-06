@@ -21,6 +21,10 @@
     },
     "datasources": [
       {
+        "name": "danbri",
+        "url": "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
+      },
+      {
         "name": "DBpedia 2016-04",
         "url": "//fragments.dbpedia.org/2016-04/en"
       },
@@ -75,10 +79,6 @@
       {
         "name": "SNCB",
         "url": "https://graph.irail.be/sncb/connections"
-      },
-      {
-        "name": "danbri",
-        "url": "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
       }
     ],
     "prefixes": {
@@ -100,6 +100,14 @@
       "lc": "http://semweb.mmlab.be/ns/linkedconnections#"
     },
     "queries": [
+      {
+        "name": "All Danbri's all triples",
+        "datasources": [
+          "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
+        ],
+        "queryFormat": "sparql",
+        "query": "SELECT *\nWHERE {\n  ?s ?p ?o \n}"
+      },
       {
         "name": "Directors of movies starring Brad Pitt",
         "datasources": [
