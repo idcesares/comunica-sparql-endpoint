@@ -21,6 +21,10 @@
     },
     "datasources": [
       {
+        "name": "isaac",
+        "url": "isaac.ttl"
+      },
+      {
         "name": "danbri",
         "url": "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
       },
@@ -101,9 +105,17 @@
     },
     "queries": [
       {
+        "name": "All Isaac's triples",
+        "datasources": [
+          "https://rdf.dcesares.dev/"
+        ],
+        "queryFormat": "sparql",
+        "query": "SELECT *\nWHERE {\n  ?s ?p ?o \n}"
+      },
+      {
         "name": "All Danbri's triples",
         "datasources": [
-          "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
+          "https://danbri.dcesares.dev/"
         ],
         "queryFormat": "sparql",
         "query": "SELECT *\nWHERE {\n  ?s ?p ?o \n}"
