@@ -22,11 +22,11 @@
     "datasources": [
       {
         "name": "isaac",
-        "url": "isaac.ttl"
+        "url": "https://rdf.dcesares.dev/"
       },
       {
         "name": "danbri",
-        "url": "https://ipfs.io/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA?filename=FOAF_Dan_Brickley.ttl"
+        "url": "https://danbri.dcesares.dev"
       },
       {
         "name": "DBpedia 2016-04",
