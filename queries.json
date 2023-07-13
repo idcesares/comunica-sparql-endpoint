@@ -22,11 +22,11 @@
     "datasources": [
       {
         "name": "isaac",
-        "url": "https://rdf.dcesares.dev/"
+        "url": "https://gateway.pinata.cloud/ipfs/QmdbeBMaFQcGR9NgaztFTefhf14KF9HEXDcsDb9eayuL1Z"
       },
       {
         "name": "danbri",
-        "url": "https://danbri.dcesares.dev"
+        "url": "https://gateway.pinata.cloud/ipfs/QmQj9UBdVnmQoSmr8LrVEL8Wa2cD9CZHE4HDJKSj1WAXmA"
       },
       {
         "name": "DBpedia 2016-04",
